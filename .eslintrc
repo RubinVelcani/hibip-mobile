@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "extends": [
+    "universe/native"
+  ],
+  "plugins": [
+    "perfectionist"
+  ],
+  "rules": {
+    "perfectionist/sort-objects": [
+      "error",
+      {
+        "type": "natural",
+        "order": "asc"
+      }
+    ]
+  }
+}
